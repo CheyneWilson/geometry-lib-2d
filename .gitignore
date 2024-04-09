@@ -1,5 +1,4 @@
 /.idea/
-/geometry-lib.iml
+*.iml
 /node_modules/
 /dist/
-/package-lock.json
