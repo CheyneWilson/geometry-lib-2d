@@ -109,8 +109,8 @@ class Vector2 {
      *
      * @param other Another point
      */
-    public distance(other: TVector2): number {
-        return Math.sqrt(this.distanceSquared(other));
+    public distanceTo(other: TVector2): number {
+        return Math.sqrt(this.distanceToSquared(other));
     }
 
     /**
@@ -121,7 +121,7 @@ class Vector2 {
      *
      * @param other Another point
      */
-    public distanceSquared(other: TVector2) {
+    public distanceToSquared(other: TVector2) {
         const x = this.x - other.x;
         const y = this.y - other.y;
         return x * x + y * y;
