@@ -1,6 +1,6 @@
 {
   "name": "geometry-lib-2d",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     "typescript": "^5.4.3"
   },
