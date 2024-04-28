@@ -17,6 +17,6 @@
   ],
   "scripts": {
     "test": "jest",
-    "postinstall": "tsc --outDir ./dist"
+    "postinstall": "tsc --outDir ./dist || true"
   }
 }
