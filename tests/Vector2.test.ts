@@ -1,5 +1,5 @@
 import {expect, test} from '@jest/globals';
-import {clamp, Vector2} from "../src/point";
+import {clamp, Vector2} from "../src/Vector2";
 
 test('Clamp less than min should equal min', () => {
     expect(clamp(-1, 2, 10)).toBe(2);

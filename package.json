@@ -1,6 +1,6 @@
 {
   "name": "geometry-lib-2d",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "dependencies": {
     "typescript": "^5.4.3"
   },
@@ -10,7 +10,7 @@
     "ts-jest": "^29.1.2"
   },
   "exports": {
-    ".": "./dist/point.js"
+    ".": "./dist/Vector2.js"
   },
   "files": [
     "/dist"

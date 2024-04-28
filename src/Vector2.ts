@@ -153,6 +153,21 @@ class Vector2 {
     public static from(other: TVector2): Vector2 {
         return new Vector2(other.x, other.y)
     }
+
+    /**
+     * Return a new copy of this vector with unit length
+     */
+    public unitVector() {
+       let length = this.length()
+       return new Vector2(this.x / length, this.y / length)
+    }
+
+    /**
+     * Create a new copy of this Vector2
+     */
+    public clone() {
+        return new Vector2(this.x, this.y)
+    }
 }
 
 /**
