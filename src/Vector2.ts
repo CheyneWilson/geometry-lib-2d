@@ -4,8 +4,8 @@ type TVector2 = {
 }
 
 class Vector2 {
-    x: number;
-    y: number;
+    readonly x: number;
+    readonly y: number;
 
     constructor(x: number, y: number) {
         this.x = x;
@@ -18,9 +18,7 @@ class Vector2 {
      * @param other A Vector2-like object
      */
     public subtract(other: TVector2): Vector2 {
-        this.x -= other.x;
-        this.y -= other.y;
-        return this
+        return new Vector2(this.x - other.x, this.y - other.y)
     }
 
     /**
@@ -133,9 +131,7 @@ class Vector2 {
      * @param other A vector
      */
     public add(other: TVector2): Vector2 {
-        this.x += other.x;
-        this.y += other.y;
-        return this
+        return new Vector2(this.x + other.x, this.y + other.y)
     }
 
     /**
@@ -157,7 +153,7 @@ class Vector2 {
     /**
      * Return a new copy of this vector with unit length
      */
-    public unitVector() {
+    public unitVector(): Vector2 {
        let length = this.length()
        return new Vector2(this.x / length, this.y / length)
     }
@@ -165,7 +161,7 @@ class Vector2 {
     /**
      * Create a new copy of this Vector2
      */
-    public clone() {
+    public clone(): Vector2 {
         return new Vector2(this.x, this.y)
     }
 }
