@@ -406,9 +406,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cheyne/geometry-lib-2d@workspace:.":
+"@cheynewilson/geometry-lib-2d@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@cheyne/geometry-lib-2d@workspace:."
+  resolution: "@cheynewilson/geometry-lib-2d@workspace:."
   dependencies:
     "@jest/globals": "npm:^29.7.0"
     jest: "npm:^29.7.0"
