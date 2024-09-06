@@ -1,12 +1,12 @@
 {
-  "name": "geometry-lib-2d",
+  "name": "@cheyne/geometry-lib-2d",
   "version": "0.3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/CheyneWilson/geometry-lib-2d"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "@cheyne:https://npm.pkg.github.com"
   },
   "dependencies": {
     "typescript": "^5.4.3"
