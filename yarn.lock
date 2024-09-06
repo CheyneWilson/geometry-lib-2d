@@ -406,6 +406,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cheyne/geometry-lib-2d@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@cheyne/geometry-lib-2d@workspace:."
+  dependencies:
+    "@jest/globals": "npm:^29.7.0"
+    jest: "npm:^29.7.0"
+    ts-jest: "npm:^29.1.2"
+    typescript: "npm:^5.4.3"
+  languageName: unknown
+  linkType: soft
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -1645,17 +1656,6 @@ __metadata:
   checksum: 10c0/782aba6cba65b1bb5af3b095d96249d20edbe8df32dbf4696fd49be2583faf676173bf4809386588828e4dd76a3354fcbeb577bab1c833ccd9fc4577f26103f8
   languageName: node
   linkType: hard
-
-"geometry-lib-2d@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "geometry-lib-2d@workspace:."
-  dependencies:
-    "@jest/globals": "npm:^29.7.0"
-    jest: "npm:^29.7.0"
-    ts-jest: "npm:^29.1.2"
-    typescript: "npm:^5.4.3"
-  languageName: unknown
-  linkType: soft
 
 "get-caller-file@npm:^2.0.5":
   version: 2.0.5
