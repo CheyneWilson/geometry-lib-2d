@@ -5,6 +5,9 @@
     "type": "git",
     "url": "https://github.com/CheyneWilson/geometry-lib-2d"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "typescript": "^5.4.3"
   },
