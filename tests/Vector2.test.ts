@@ -88,7 +88,7 @@ test ("A 135 degree angle", () => {
 
 test ("A 225 degree angle", () => {
     let xy = new Vector2(-1,-1)
-    expect(xy.angle()).toBeCloseTo(  5 / 4 * Math.PI, Number.EPSILON)
+    expect(xy.angle()).toBeCloseTo(  - 3 / 4 * Math.PI, Number.EPSILON)
 })
 
 test("Polar coordinates", () => {

@@ -1,8 +1,14 @@
+/**
+ * TVector2 is the simple type analogous to a Vector2.
+ */
 type TVector2 = {
     x: number;
     y: number;
 }
 
+/**
+ * Vector2 is an immutable 2-dimensional point.
+ */
 class Vector2 {
     readonly x: number;
     readonly y: number;
@@ -33,9 +39,8 @@ class Vector2 {
      * E.g. for point {x: 1, y: 1}, the angle is PI / 4 radians
      */
     public angle(): number {
-        return Math.atan2(-this.y, -this.x) + Math.PI;
+        return Math.atan2(this.y, this.x)
     }
-
 
     /**
      * Calculate the length-squared of this vector
