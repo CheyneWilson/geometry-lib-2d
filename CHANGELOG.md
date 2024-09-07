@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/CheyneWilson/geometry-lib-2d/compare/v0.4.1...v0.5.0) (2024-09-07)
+
+
+### Features
+
+* Add TriangleUtil ([7039289](https://github.com/CheyneWilson/geometry-lib-2d/commit/703928926228816eff95d35e0331572c03331c35))
+
 ## [0.4.1](https://github.com/CheyneWilson/geometry-lib-2d/compare/v0.4.0...v0.4.1) (2024-09-07)
 
 
