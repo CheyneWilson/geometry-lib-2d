@@ -2,6 +2,7 @@
   "compilerOptions": {
     "module": "ES2020",
     "declaration": true,
+    "declarationDir": "dist/types",
     "target": "ESNext",
     "moduleResolution": "bundler",
     "strict": true,
@@ -10,5 +11,5 @@
     "esModuleInterop": true
   },
   "include": ["src/"],
-  "exclude": ["tests/", "dist/", "examples/", "node_modules/"]
+  "exclude": ["tests/", "dist/",  "node_modules/"]
 }

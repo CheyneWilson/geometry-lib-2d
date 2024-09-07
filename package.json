@@ -17,13 +17,19 @@
     "ts-jest": "^29.1.2"
   },
   "exports": {
-    ".": "./dist/Vector2.js"
+    ".": {
+      "import": {
+        "types": "./dist/types/index.d.ts",
+        "default":  "./dist/index.js"
+      }
+    }
   },
   "files": [
-    "/dist"
+    "dist"
   ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "packageManager": "yarn@4.4.1"
 }
