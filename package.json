@@ -1,6 +1,6 @@
 {
   "name": "@cheynewilson/geometry-lib-2d",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/CheyneWilson/geometry-lib-2d"
@@ -20,7 +20,7 @@
     ".": {
       "import": {
         "types": "./dist/types/index.d.ts",
-        "default":  "./dist/index.js"
+        "default": "./dist/index.js"
       }
     }
   },
