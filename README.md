@@ -1,28 +1,31 @@
 # Geometry Lib 2D
 
-This repo contains a basic geometry library which operates on 2D points and vectors.
+This repo contains a simple geometry library which operates on 2D points and vectors.
 It was created to support some other geometry experiments / prototypes as an alternative to
-including a more heavyweight framework. This library is quite lacking, containing only the
-features needed to support downstream projects being developed in parallel.
+including a heavyweight framework. It only contains the features needed to support a couple of downstream projects.
 
-# Usage and Distribution
+# Features
 
-The `geometry-lib-2d` has not been published to a package repository. Instead, it can be included by referencing
-a tag from GitHub in your `package.json`. 
+## Vector2
+
+An immutable (x,y) point and methods for common operations such as vector addition, subtraction, dot-product, the
+determinant, and finding angles. Can be created from cartesian or polar coordinates.
+
+## TriangleUtil
+
+A module provides functions for calculating the angles and sides of a triangle when given partial information.
+See [Solving SSA Triangles](https://www.mathsisfun.com/algebra/trig-solving-ssa-triangles.html) for more info.
+
+# Usage
 
 ```json5
 {
   // ...
   "dependencies": {
-    "geometry-lib": "git://github.com/CheyneWilson/geometry-lib-2d.git#<tag>"
+    "@cheynewilson/geometry-lib-2d": "0.4.1",
   }
 }
 ```
-
-The postinstall step `tsc || true` in the `package.json` compiles the library when it is installed. This technique is 
-being trialled since it allowed downstream projects to complete installation even when there are breaking changes
-in this library.
-
 ## Dev Setup
 
 Install the node module dependencies via `npm` or your preferred package manager.
@@ -30,16 +33,21 @@ Install the node module dependencies via `npm` or your preferred package manager
 npm install
 ```
 
+```shell
+yarn install
+```
+
 ## Testing
 
 Partial unit-test coverage exists via `jest`. This can be called via:
+
 ```shell
 jest
 ```
 
 ## Building
 
-Use `tsc` to create the javascript distribution.
+Use `tsc` to create the distribution.
 ```shell
 tsc
 ```
