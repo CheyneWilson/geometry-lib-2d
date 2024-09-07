@@ -22,7 +22,7 @@ See [Solving SSA Triangles](https://www.mathsisfun.com/algebra/trig-solving-ssa-
 {
   // ...
   "dependencies": {
-    "@cheynewilson/geometry-lib-2d": "0.4.1",
+    "@cheynewilson/geometry-lib-2d": "0.5.0",
   }
 }
 ```
