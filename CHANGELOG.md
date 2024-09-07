@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/CheyneWilson/geometry-lib-2d/compare/v0.4.0...v0.4.1) (2024-09-07)
+
+
+### Miscellaneous Chores
+
+* release 0.4.1 ([c9ca925](https://github.com/CheyneWilson/geometry-lib-2d/commit/c9ca9252a7ff5d161b68fd13e87e3b648217d15a))
+
 ## 0.4.0 (2024-09-07)
 
 
